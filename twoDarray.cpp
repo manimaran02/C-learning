@@ -28,11 +28,20 @@ cin >> n >> m;
 for(int i =0;i<n;i++){
     vector<int> temp;
 for(int j=0;j<m;j++){
-    cin >> temp;
-
+    int x1;
+    cin >> x1;
+    temp.push_back(x1);
 }   
 x.push_back(temp); 
 }
-
+for(int i=0;i<n;i++){
+    for(int j =0;j<m;j++){
+        cout << x[i][j] << " ";
+    }
+    cout << endl;
+}
+cout <<x[0].size() << endl; // No of columns
+cout << x.size() << endl; // No of rows
+return 0;
 
 }

@@ -147,7 +147,7 @@ else if(mode == EXIT_MODE)
 
 cout << "Thanks for using calculator ^_^"<<endl;
  
-return 0;
+
 
 } 
 
