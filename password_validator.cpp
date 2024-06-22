@@ -20,11 +20,11 @@ int main(){
     if(a.length() >=10){
         for(int i =0;i<a.length();i++){
             // cout << (int)a[i]  << " " << a[i] << endl;
-            if((int)a[i] >= upper && (int)a[i] <= upper+27 ){
+            if((int)a[i] >= upper && (int)a[i] <= upper+26 ){
                 up = true;
                 // cout << up <<" upper" << endl;
             }
-            else if((int)a[i] >=lower && (int)a[i] <= lower+27){
+            else if((int)a[i] >=lower && (int)a[i] <= lower+26){
                 low = true;
                 // cout << low <<" lower" << endl;
             }
